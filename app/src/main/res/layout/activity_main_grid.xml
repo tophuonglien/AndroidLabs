@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:text="I love Android"
-        android:hint="@string/button_text" />
+        />
 
     <ImageButton
         android:id="@+id/imageButton1"
