@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="I love Android"
+        android:hint="@string/button_text"
+        android:layout_marginTop="0dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:padding="30dp"
+        android:src="@drawable/flag"
+        android:layout_marginTop="0dp"/>
+
+    <Switch
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:text="Switch on/off" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="onClickListener"
+        android:text="Press Me"
+
+        android:layout_marginTop="10dp"/>
+
+
+    <CheckBox
+        android:id="@+id/checkb"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:text="Check this out!" />
+
+    <EditText
+        android:id="@+id/fistText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="I love Android"
+        android:layout_marginTop="0dp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
